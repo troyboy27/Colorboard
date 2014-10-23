@@ -13,6 +13,9 @@
 		5ED36EB419F96825005495D3 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ED36EB319F96825005495D3 /* Images.xcassets */; };
 		5ED36EB719F96825005495D3 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5ED36EB519F96825005495D3 /* LaunchScreen.xib */; };
 		5ED36EC319F96825005495D3 /* ColorboardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36EC219F96825005495D3 /* ColorboardTests.swift */; };
+		5ED36ECD19F96CB9005495D3 /* ColorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36ECC19F96CB9005495D3 /* ColorViewController.swift */; };
+		5ED36ECF19F97263005495D3 /* PalletteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36ECE19F97263005495D3 /* PalletteViewController.swift */; };
+		5ED36ED119F97329005495D3 /* ColorDescription.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ED36ED019F97329005495D3 /* ColorDescription.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		5ED36EBC19F96825005495D3 /* ColorboardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorboardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ED36EC119F96825005495D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ED36EC219F96825005495D3 /* ColorboardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorboardTests.swift; sourceTree = "<group>"; };
+		5ED36ECC19F96CB9005495D3 /* ColorViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorViewController.swift; sourceTree = "<group>"; };
+		5ED36ECE19F97263005495D3 /* PalletteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PalletteViewController.swift; sourceTree = "<group>"; };
+		5ED36ED019F97329005495D3 /* ColorDescription.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorDescription.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +86,9 @@
 				5ED36EAC19F96825005495D3 /* AppDelegate.swift */,
 				5ED36EAE19F96825005495D3 /* ViewController.swift */,
 				5ED36EB019F96825005495D3 /* Main.storyboard */,
+				5ED36ECC19F96CB9005495D3 /* ColorViewController.swift */,
+				5ED36ECE19F97263005495D3 /* PalletteViewController.swift */,
+				5ED36ED019F97329005495D3 /* ColorDescription.swift */,
 				5ED36EB319F96825005495D3 /* Images.xcassets */,
 				5ED36EB519F96825005495D3 /* LaunchScreen.xib */,
 				5ED36EAA19F96825005495D3 /* Supporting Files */,
@@ -212,7 +221,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5ED36ECF19F97263005495D3 /* PalletteViewController.swift in Sources */,
 				5ED36EAF19F96825005495D3 /* ViewController.swift in Sources */,
+				5ED36ECD19F96CB9005495D3 /* ColorViewController.swift in Sources */,
+				5ED36ED119F97329005495D3 /* ColorDescription.swift in Sources */,
 				5ED36EAD19F96825005495D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
